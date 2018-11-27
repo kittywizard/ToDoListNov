@@ -1,0 +1,44 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,600,900');
+
+body { 
+    background-color: rgba(255, 173, 51, 0.788);
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+header {
+    font-weight: 900;
+    font-size: 2em;
+    color: #000000;
+    text-align: center;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: .2em;
+}
+
+.taskForm {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.fancyButton {
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding: .2em;
+}
+input {
+    border: 1px solid #000000;
+    padding: .2em;
+}
